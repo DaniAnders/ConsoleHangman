@@ -1,0 +1,15 @@
+/Users/danielle/Projects/ConsoleHangman/ConsoleHangman/bin/Debug/net6.0/ConsoleHangman
+/Users/danielle/Projects/ConsoleHangman/ConsoleHangman/bin/Debug/net6.0/ConsoleHangman.deps.json
+/Users/danielle/Projects/ConsoleHangman/ConsoleHangman/bin/Debug/net6.0/ConsoleHangman.runtimeconfig.json
+/Users/danielle/Projects/ConsoleHangman/ConsoleHangman/bin/Debug/net6.0/ConsoleHangman.dll
+/Users/danielle/Projects/ConsoleHangman/ConsoleHangman/bin/Debug/net6.0/ConsoleHangman.pdb
+/Users/danielle/Projects/ConsoleHangman/ConsoleHangman/obj/Debug/net6.0/ConsoleHangman.csproj.AssemblyReference.cache
+/Users/danielle/Projects/ConsoleHangman/ConsoleHangman/obj/Debug/net6.0/ConsoleHangman.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danielle/Projects/ConsoleHangman/ConsoleHangman/obj/Debug/net6.0/ConsoleHangman.AssemblyInfoInputs.cache
+/Users/danielle/Projects/ConsoleHangman/ConsoleHangman/obj/Debug/net6.0/ConsoleHangman.AssemblyInfo.cs
+/Users/danielle/Projects/ConsoleHangman/ConsoleHangman/obj/Debug/net6.0/ConsoleHangman.csproj.CoreCompileInputs.cache
+/Users/danielle/Projects/ConsoleHangman/ConsoleHangman/obj/Debug/net6.0/ConsoleHangman.dll
+/Users/danielle/Projects/ConsoleHangman/ConsoleHangman/obj/Debug/net6.0/refint/ConsoleHangman.dll
+/Users/danielle/Projects/ConsoleHangman/ConsoleHangman/obj/Debug/net6.0/ConsoleHangman.pdb
+/Users/danielle/Projects/ConsoleHangman/ConsoleHangman/obj/Debug/net6.0/ConsoleHangman.genruntimeconfig.cache
+/Users/danielle/Projects/ConsoleHangman/ConsoleHangman/obj/Debug/net6.0/ref/ConsoleHangman.dll
