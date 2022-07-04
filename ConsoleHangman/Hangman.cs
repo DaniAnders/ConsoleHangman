@@ -84,6 +84,15 @@ namespace ConsoleHangman
         }
 
 
+        public void PrintInfo()
+        {
+            Console.WriteLine($"You guessed: {CorrectLetters.ToString()}");
+            Console.WriteLine($"The incorrect letters are: {IncorrectLetters}");
+            Console.WriteLine($"\nThe number of atempts: {Attempts}");
+            Console.WriteLine($"\nNumber of guesses: {Guesses}");
+        }
+
+
 
 
         public void HangmanClear()
@@ -204,7 +213,8 @@ namespace ConsoleHangman
                 Attempts++;
                 IncorrectLetters.Append(inputedWord);
                 Console.WriteLine($"\nSorry! ( {new string(inputedWord)} )is NOT the secret word. Try again.\n");
-                Console.WriteLine($"\nNumber of guesses: {Guesses}");
+                PrintInfo();
+              
             }
 
             return equal;
@@ -252,7 +262,7 @@ namespace ConsoleHangman
                     CorrectLetters.Append(letter);
                     result = true;
                     Console.WriteLine($"\nYour guess was correct the letter ( {letter} ) is in the secret word.\n");
-                    Console.WriteLine($"\nYou have {Guesses} guesses left.\n");
+                
 
 
             }/* Checking the inputed letter has been entered already */
@@ -261,7 +271,7 @@ namespace ConsoleHangman
                 Guesses--;
                 Attempts++;
                 Console.WriteLine($"\nYou already entered the letter ( {letter} ). Try again!\n");
-                Console.WriteLine($"\nYou have {Guesses} guesses left.\n");
+              
         
                
             }/* Adding incorrect letters to string builder */
@@ -272,7 +282,7 @@ namespace ConsoleHangman
                 IncorrectLetters.Append(letter);
                 result = false;
                 Console.WriteLine($"\nYour guess was incorrect the letter ( {letter} ) is not in the secret word.\n");
-                Console.WriteLine($"\nYou have {Guesses} guesses left.\n");
+            
 
             }
 
@@ -311,6 +321,7 @@ namespace ConsoleHangman
                         char letter = char.ToLower(keyInfo.KeyChar);
                         GuessCharInWord(letter);
                         UpdateDashes();
+                        PrintInfo();
                         break;
                     case 2:
                         Console.Clear();
