@@ -1,24 +1,20 @@
 ﻿<Properties StartupConfiguration="{BDFFAC48-DEB2-404F-89B6-05F2D16F262B}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.ConsoleHangman PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleHangman/Hangman.cs">
     <Files>
-      <File FileName="ConsoleHangman/Hangman.cs" Line="25" Column="68" />
+      <File FileName="ConsoleHangman/Hangman.cs" Line="23" Column="68" />
       <File FileName="Unit_Tests/UnitTest1.cs" Line="11" Column="1" />
       <File FileName="ConsoleHangman/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ConsoleHangman" expanded="True" selected="True">
+          <Node name="ConsoleHangman" expanded="True">
             <Node name="ConsoleHangman" expanded="True">
               <Node name="Dependencies" expanded="True" />
+              <Node name="Hangman.cs" selected="True" />
             </Node>
-            <Node name="Unit_Tests" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -27,16 +23,14 @@
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="ConsoleHangman" expanded="True" selected="True">
-            <Node name="Unit_Tests" expanded="True">
-              <Node name="ConsoleHangman.Unit_Tests" expanded="True">
-                <Node name="UnitTest1" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
+          <Node name="ConsoleHangman" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
 </Properties>
